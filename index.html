@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Distance</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="header-block">
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="search">
+            <label>
+                <input class="search-input" type="text" placeholder="Поиск">
+            </label>
+        </div>
+        <div class="navigation">
+            <div class="user">
+                <img src="img/user-icon.svg" alt="avatar" class="user-avatar">
+                <span class="user-name">Мария</span>
+            </div>
+            <nav class="navigation-panel">
+                <a href="#" class="navigation-link">Home</a>
+                <a href="#" class="navigation-link">Create</a>
+            </nav>
+            <div class="icons-panel">
+                <!--users-->
+                <a href="#" class="icon-link">
+                    <svg class="header-icon" width="20" height="20" viewBox="0 0 22 22">
+                        <use xlink:href="img/icons.svg#users"></use>
+                    </svg>
+                </a>
+                <!--chat-->
+                <a class="icon-link" href="#">
+                    <svg class="header-icon" width="22" height="22" viewBox="0 0 22 22">
+                        <use xlink:href="img/icons.svg#chat"></use>
+                    </svg>
+                </a>
+                <!--bell-->
+                <a href="#" class="icon-link">
+                    <span class="notification">5</span>
+                    <svg class="header-icon" height="20" viewBox="0 0 20 20" width="20">
+                        <use xlink:href="img/icons.svg#bell"></use>
+                    </svg>
+                </a>
+                <!--info-->
+                <a href="#" class="icon-link">
+                    <svg class="header-icon" width="22" height="22" viewBox="0 0 22 22">
+                        <use xlink:href="img/icons.svg#info"></use>
+                    </svg>
+                </a>
+                <!--dropdown-->
+                <a class="icon-link" href="#">
+                    <svg class="header-icon" width="12" height="8" viewBox="0 0 12 8">
+                        <use xlink:href="img/icons.svg#dropdown"></use>
+                        />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <div class="menu-sidebar">
+        <div class="user">
+            <img src="img/user-icon.svg" alt="user-icon" class="user-avatar">
+            <span class="user-name">Мария Ершова</span>
+        </div>
+        <nav class="nav-group">
+            <a href="#" class="nav-link active">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                    <use xlink:href="img/icons.svg#feed"></use>
+                </svg>
+                <span class="nav-text">Лента новостей</span>
+            </a>
+            <a href="#" class="nav-link">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                    <use xlink:href="img/icons.svg#messages"></use>
+                </svg>
+                <span class="nav-text">Сообщения</span>
+            </a>
+            <a href="#" class="nav-link">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                    <use xlink:href="img/icons.svg#market"></use>
+                </svg>
+                <span class="nav-text">Магазин</span>
+            </a>
+        </nav><!-- /.nav-group1 -->
+        <nav class="nav-group">
+            <h3 class="nav-title">Быстрые ссылки</h3>
+            <a href="#" class="nav-link">
+                <svg width="24" height="24" viewBox="0 0 100 100">
+                    <use xlink:href="img/icons.svg#groups"></use>
+                </svg>
+                <span class="nav-text">Группы</span>
+            </a> <a href="#" class="nav-link">
+            <svg width="24" height="24" viewBox="0 0 100 100">
+                <use xlink:href="img/icons.svg#speaker"></use>
+            </svg>
+            <span class="nav-text">Выступления</span>
+        </a> <a href="#" class="nav-link">
+            <svg width="24" height="24" viewBox="0 0 100 100">
+                <use xlink:href="img/icons.svg#brain"></use>
+            </svg>
+            <span class="nav-text">Головоломки</span>
+        </a>
+            <a href="#" class="nav-link">
+                <svg width="24" height="24" viewBox="0 0 100 100">
+                    <use xlink:href="img/icons.svg#cactus"></use>
+                </svg>
+                <span class="nav-text">Цветоводство</span>
+            </a>
+        </nav><!-- /.nav-group 2 -->
+
+        <nav class="nav-group">
+            <h3 class="nav-title">Интересное</h3>
+            <a href="#" class="nav-link">
+                <svg width="24" height="24" viewBox="0 0 100 100">
+                    <use xlink:href="img/icons.svg#groups"></use>
+                </svg>
+                <span class="nav-text">Группы</span>
+            </a> <a href="#" class="nav-link">
+            <svg width="24" height="24" viewBox="0 0 100 100">
+                <use xlink:href="img/icons.svg#speaker"></use>
+            </svg>
+            <span class="nav-text">Выступления</span>
+        </a> <a href="#" class="nav-link">
+            <svg width="24" height="24" viewBox="0 0 100 100">
+                <use xlink:href="img/icons.svg#brain"></use>
+            </svg>
+            <span class="nav-text">Головоломки</span>
+        </a>
+            <a href="#" class="nav-link">
+                <svg width="24" height="24" viewBox="0 0 100 100">
+                    <use xlink:href="img/icons.svg#cactus"></use>
+                </svg>
+                <span class="nav-text">Цветоводство</span>
+            </a>
+            <a href="#" class="nav-link">
+                <svg width="24" height="24" viewBox="0 0 100 100">
+                    <use xlink:href="img/icons.svg#cup"></use>
+                </svg>
+                <span class="nav-text">Достижения</span>
+            </a>
+        </nav><!-- /.nav-group 3 -->
+    </div><!-- /.menu-sidebar -->
+    <div class="main-feed">
+        <div class="create-post">
+            <div class="create-post__header">
+                <h4 class="create-post__title">Создать сообщение</h4>
+            </div>
+            <div class="create-post__body">
+                <img src="img/user-icon.svg" alt="avatar" class="user-avatar">
+                <div class="create-post__input" contenteditable="true">Что у вас новенького, Мария?</div>
+            </div>
+            <div class="delimiter"></div>
+            <div class="create-post__footer">
+                <button class="tag">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                        <use xlink:href="img/icons.svg#photo-video"></use>
+                    </svg>
+                    <span class="tag-text">Фото/Видео</span>
+                </button>
+                <button class="tag">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                        <use xlink:href="img/icons.svg#tag-friend"></use>
+                    </svg>
+                    <span class="tag-text">Отметить друга</span>
+                </button>
+                <button class="tag">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                        <use xlink:href="img/icons.svg#feelings"></use>
+                    </svg>
+                    <span class="tag-text">Чувства/Действия</span>
+
+                </button>
+                <button class="tag">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                        <use xlink:href="img/icons.svg#ellipsis"></use>
+                    </svg>
+                </button>
+            </div>
+        </div><!-- /.create-post -->
+        <div class="post">
+            <div class="post__header">
+                <div class="user">
+                    <img class="user-avatar" src="img/user-icon.svg" alt="avatar"/>
+                    <div class="post__info">
+                        <a class="post__author" href="#">Мария Ершова</a>
+                        <span class="post__time">2ч</span>
+                        <svg width="14" height="14" viewBox="0 0 14 14">
+                            <use xlink:href="img/icons.svg#settings"></use>
+                        </svg>
+                    </div>
+                </div>
+                <button class="post__header-button">
+                    <svg width="24" height="24" viewBox="0 0 24 24" class="post__header-button-icon">
+                        <use xlink:href="img/icons.svg#ellipsis"></use>
+                    </svg>
+                </button>
+
+            </div>
+            <div class="post__content">
+                <p class="post__text">
+                    Доллар США — национальная валюта Соединенных Штатов Америки. Является основной резервной валютой
+                    мира и широко используется в международной торговле. Правом денежной эмиссии долларов обладает
+                    Федеральная резервная система (ФРС, англ. Federal Reserve System) — независимое федеральное
+                    агентство, которое выполняет функции центрального банка США.
+                </p>
+                <p class="post__text">Подробнее
+                    <a href="https://en.wikipedia.org/wiki/United_States_dollar">https://en.wikipedia.org/wiki/United_States_dollar</a>
+                </p>
+                <img src="img/chart.jpg" alt="Dollar grows chart" class="post__image">
+            </div>
+            <div class="likes">
+                <svg class="likes__icon" width="16" height="16" viewBox="0 0 16 16">
+                    <use xlink:href="img/icons.svg#like-active"></use>
+                </svg>
+                <span class="likes__counter">12</span>
+            </div>
+            <div class="delimiter"></div>
+            <div class="post__footer">
+                <button class="post__button">
+                    <svg width="24" height="24" viewBox="0 0 16 16">
+                        <use xlink:href="img/icons.svg#like"></use>
+                    </svg>
+                    <span class="post__button-text">Like</span>
+                </button>
+                <button class="post__button">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                        <use xlink:href="img/icons.svg#chat"></use>
+                    </svg>
+                    <span class="post__button-text">Comment</span>
+                </button>
+                <button class="post__button">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                        <use xlink:href="img/icons.svg#share"></use>
+                    </svg>
+                    <span class="post__button-text">Share</span>
+                </button>
+            </div>
+        </div><!-- /.post1 -->
+        <div class="post">
+            <div class="post__header">
+                <div class="user">
+                    <img class="user-avatar" src="img/user4-icon.svg" alt="avatar"/>
+                    <div class="post__info">
+                        <a class="post__author" href="#">Саша Петров</a>
+                        <span class="post__time">3ч</span>
+                        <svg width="14" height="14" viewBox="0 0 14 14">
+                            <use xlink:href="img/icons.svg#settings"></use>
+                        </svg>
+                    </div>
+                </div>
+                <button class="post__header-button">
+                    <svg width="24" height="24" viewBox="0 0 24 24" class="post__header-button-icon">
+                        <use xlink:href="img/icons.svg#ellipsis"></use>
+                    </svg>
+                </button>
+
+            </div>
+            <div class="post__content">
+                <p class="post__text">
+                    Вели́кая депре́ссия (англ. Great Depression) — мировой экономический кризис, начавшийся в октябре
+                    1929 года с биржевого краха в США и продолжавшийся до 1939 года. (Наиболее остро с 1929 по 1933
+                    год)[3]. 1930-е годы в целом считаются периодом Великой депрессии.
+
+                    Великая депрессия наиболее сильно затронула США, Канаду, Великобританию, Германию и Францию, но
+                    ощущалась и в других государствах. В наибольшей степени пострадали промышленные города, в ряде стран
+                    практически прекратилось строительство. Из-за сокращения спроса, цены на сельскохозяйственную
+                    продукцию упали на 40—60 %.
+                </p>
+                <p class="post__text">Подробнее
+                    <a href="https://en.wikipedia.org/wiki/United_States_dollar">https://en.wikipedia.org/wiki/Great_Depression</a>
+                </p>
+                <img src="img/220px-American_union_bank.gif" alt="American depression" class="post__image">
+            </div>
+            <div class="likes">
+                <svg class="likes__icon" width="16" height="16" viewBox="0 0 16 16">
+                    <use xlink:href="img/icons.svg#like-active"></use>
+                </svg>
+                <span class="likes__counter">22</span>
+            </div>
+            <div class="delimiter"></div>
+            <div class="post__footer">
+                <button class="post__button">
+                    <svg width="24" height="24" viewBox="0 0 16 16">
+                        <use xlink:href="img/icons.svg#like"></use>
+                    </svg>
+                    <span class="post__button-text">Like</span>
+                </button>
+                <button class="post__button">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                        <use xlink:href="img/icons.svg#chat"></use>
+                    </svg>
+                    <span class="post__button-text">Comment</span>
+                </button>
+                <button class="post__button">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                        <use xlink:href="img/icons.svg#share"></use>
+                    </svg>
+                    <span class="post__button-text">Share</span>
+                </button>
+            </div>
+        </div><!-- /.post2 -->
+    </div><!-- /.main-feed -->
+    <div class=" right-sidebar">
+        <div class="stories">
+            <div class="stories__header">
+                <h4 class="stories__title">Истории </h4>
+                <div class="stories__button">
+                    <a href="" class="stories__button-link">
+                        <svg width="16" height="16" viewBox="0 0 16 16">
+                            <use xlink:href="img/icons.svg#clock-circle"></use>
+                        </svg>
+                        <span class="stories__button-text">Архив</span>
+                    </a>
+                    <a href="" class="stories__button-link">
+                        <span class="stories__button-text">Настройки</span>
+                    </a>
+                </div>
+            </div><!-- /.stories-header-->
+            <a href="#" class="stories__item">
+                <div class="stories__item-add">+</div>
+                <div class="stories__item-text">
+                    <span class="stories__title">
+                        Добавьте свою историю
+                    </span>
+                    <span class="stories__text">
+                        Поделитесь видео со своими друзьями
+                    </span>
+                </div>
+            </a>
+            <a href="#" class="stories__item">
+                <img src="img/user3-icon.svg" alt="user3" class="user-avatar">
+                <div class="stories__item-text">
+                    <span class="stories__title">
+                        Катя Иванова
+                    </span>
+                    <span class="stories__text">
+                        2 часа назад
+                    </span>
+                </div>
+            </a>
+            <a href="#" class="stories__item">
+                <img src="img/user4-icon.svg" alt="user4" class="user-avatar">
+                <div class="stories__item-text">
+                    <span class="stories__title">
+                        Саша Петров
+                    </span>
+                    <span class="stories__text">
+                        3 часа назад
+                    </span>
+                </div>
+            </a>
+            <a href="#" class="stories__item">
+                <img src="img/user5-icon.svg" alt="user5" class="user-avatar">
+                <div class="stories__item-text">
+                    <span class="stories__title">
+                        Эвелина Геворкян
+                    </span>
+                    <span class="stories__text">
+                        4 часа назад
+                    </span>
+                </div>
+            </a>
+
+        </div><!-- /.stories -->
+        <div class="birthdays">
+            <div class="birthdays__item">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                    <use xlink:href="img/icons.svg#birthday"></use>
+                </svg>
+                <div class="birthdays__block">
+                    <a href="#">
+                        <span class="birthdays__user">
+                        Саша Петров
+                    </span></a>
+                    <span class="birthdays__text">
+                        отмечает сегодня день рождения
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div><!-- /.right-sidebar -->
+</div><!-- /.container -->
+<script src="js/main.js"></script>
+</body>
+</html>
